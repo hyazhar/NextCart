@@ -26,6 +26,9 @@ nav {
 #menus {
     display: flex;
     gap: 25px;
+    background-color: #3b3a3a;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 #menus a {
