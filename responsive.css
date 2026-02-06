@@ -28,4 +28,9 @@
     .category-name{
         font-size: 10px;
     }
+    .crousel-item{
+        flex: none;
+        width: 100%;
+        height: 200px;
+    }
 }
