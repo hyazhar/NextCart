@@ -65,12 +65,15 @@ nav {
 
 /* Image Slider Begins here  */
 #crousel {
-    display: flex;
     width: 100%;
     height: 400px;
     overflow: hidden;
     position: relative;
   }
+.crousel-track{
+    display: flex;
+    transition: transform 0.5s ease;
+}
   
   .crousel-item {
     min-width: 100%;
