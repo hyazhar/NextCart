@@ -11,6 +11,7 @@
         display: none;
         padding: 20px 0;    
         border-radius: 0px;
+        z-index: 999;
     }
 
     #menus.active {
@@ -28,9 +29,32 @@
     .category-name{
         font-size: 10px;
     }
+    #crousel {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+      }
     .crousel-item{
         flex: none;
         width: 100%;
         height: 200px;
     }
+    .crousel-item img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        padding: 5px 5px;
+        cursor: pointer;
+        font-size: 15px;
+      }
 }
