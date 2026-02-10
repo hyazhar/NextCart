@@ -46,7 +46,7 @@
         height: 200px;
         object-fit: cover;
     }
-    button {
+    #crousel button {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -57,4 +57,33 @@
         cursor: pointer;
         font-size: 15px;
       }
+      #ribbon span{
+        font-size: 12px;
+      }
+      .product-box{
+        width: 95%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .item{
+        width: 130px;
+    }
+
+    .img-container{
+        height: 130px;
+    }
+
+    .product-box-header h2{
+        font-size: 18px;
+    }
+
+    .product-box-header button{
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .info p{
+        font-size: 12px;
+    }
 }
