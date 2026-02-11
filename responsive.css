@@ -86,4 +86,10 @@
     .info p{
         font-size: 12px;
     }
+    .bs-track {
+        gap: 30px;
+      }
+      .bs-track img {
+        height: 30px;
+      }
 }

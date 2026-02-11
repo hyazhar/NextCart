@@ -128,14 +128,15 @@ nav {
   .fy-view-btn {
     padding: 8px 16px;
     border: none;
-    background: black;
-    color: white;
-    border-radius: 6px;
+    background: white;
+    color: black;
+    /* border-radius: 6px; */
     cursor: pointer;
   }
   
   .fy-view-btn:hover {
-    background: #333;
+    background: black;
+    color: white;
   }
   
   /* Products container */
@@ -313,3 +314,49 @@ nav {
     color: #ffb703;
     font-weight: bold;
 }
+/* Main Container Ends here */
+
+/* Brand section starts here  */
+.bs-slider {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Track */
+  .bs-track {
+    display: flex;
+    gap: 60px;
+    animation: bs-scroll 20s linear infinite;
+    align-items: center;
+  }
+  
+  /* Pause on hover */
+  .bs-slider:hover .bs-track {
+    animation-play-state: paused;
+  }
+  
+  /* Logos */
+  .bs-track img {
+    height: 40px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: 0.3s;
+  }
+  
+  .bs-track img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  
+  /* Animation */
+  @keyframes bs-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
