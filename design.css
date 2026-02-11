@@ -108,13 +108,90 @@ nav {
   
 /* Image Slider Ends Here */
 
+/* for you sections begins here */
+.fy-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffb703;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .fy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .fy-view-btn {
+    padding: 8px 16px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .fy-view-btn:hover {
+    background: #333;
+  }
+  
+  /* Products container */
+  .fy-products {
+    display: flex;
+    flex-wrap: nowrap;        /* Prevent wrapping */
+    gap: 20px;
+    overflow-x: auto;         /* Horizontal scroll */
+    scrollbar-width: none;
+  }
+  
+  .fy-products::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Product item */
+  .fy-product {
+    flex: 1 1 180px;          /* Shrink allowed */
+    min-width: 150px;         /* Minimum size */
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  }
+  
+  /* Image hover */
+  .fy-img-box {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .fy-img-box img {
+    width: 100%;
+    transition: transform 0.4s ease;
+  }
+  
+  .fy-img-box:hover img {
+    transform: scale(1.1);
+  }
+  
+  .fy-name {
+    margin-top: 8px;
+    font-weight: 600;
+  }
+
+  /* for you section ends here */
+
+
 /* Category Section Begins here */
 #category-section {
  display: flex;
  overflow-x: scroll;
  justify-content: space-evenly;
  align-items: center;
-padding: 10px;
+    padding: 10px;
 }
 ::-webkit-scrollbar {
   display: none;
