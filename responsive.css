@@ -92,4 +92,8 @@
       .bs-track img {
         height: 30px;
       }
+      .ec-newsletter {
+        flex-direction: column;
+        gap: 10px;
+      }
 }

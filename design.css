@@ -350,7 +350,75 @@ nav {
     filter: grayscale(0%);
     transform: scale(1.1);
   }
+  /* Footer */
+  .ec-footer {
+    background: #111;
+    color: #fff;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+  }
   
+  .ec-footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  
+  .ec-footer-col h3,
+  .ec-logo {
+    margin-bottom: 15px;
+  }
+  
+  .ec-footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ec-footer-col ul li {
+    margin-bottom: 8px;
+  }
+  
+  .ec-footer-col a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .ec-footer-col a:hover {
+    color:#ffb703;
+  }
+  
+  /* Newsletter */
+  .ec-newsletter {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .ec-newsletter input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  .ec-newsletter button {
+    padding: 8px 12px;
+    border: none;
+    background: orange;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Bottom Bar */
+  .ec-footer-bottom {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+  }
   /* Animation */
   @keyframes bs-scroll {
     from {
