@@ -385,6 +385,90 @@ nav {
     background: #111;
     color: #ffb703;
   }
+  /* Price section starts here */
+  .price-section {
+    padding: 20px;
+}
+
+/* Wrapper styling */
+.price-wrapper {
+    background-color: #ffb703;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Header */
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.wrapper-header h2 {
+    font-size: 1.6rem;
+}
+
+.wrapper-header button {
+    background: #fff;
+    border: none;
+    padding: 10px 15px;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wrapper-header button:hover {
+    background: black;
+    color: #fff;
+}
+
+/* Horizontal scroll */
+.price-items {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.price-items::-webkit-scrollbar {
+    display: none;
+}
+
+/* Product card */
+.price-item {
+    min-width: 200px;
+    flex-shrink: 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.price-item:hover {
+    transform: translateY(-5px);
+}
+
+.price-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.price-item p {
+    font-size: 1rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff6600;
+}
+
   /* Footer */
   .ec-footer {
     background: #111;

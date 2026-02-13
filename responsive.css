@@ -112,4 +112,30 @@
         width: 100%;
         padding: 12px;
     }
+    . .price-section {
+        padding: 10px;
+    }
+
+    .wrapper-header h2 {
+        font-size: 1.1rem;
+    }
+
+    .wrapper-header button {
+        padding: 6px 10px;
+        font-size: 0.75rem;
+    }
+
+    .price-item {
+        min-width: 140px;
+        padding: 8px;
+    }
+
+    .price-item p {
+        font-size: 0.8rem;
+    }
+
+    .price-item img {
+        margin-bottom: 6px;
+    }
+    
 }
