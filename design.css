@@ -350,6 +350,41 @@ nav {
     filter: grayscale(0%);
     transform: scale(1.1);
   }
+  /* Offer section */
+.offer-section {
+    width: 100%;
+    height: 300px;
+    background: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.7);
+  }
+  .offer-content{
+    background: rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+  .offer-content strong{
+    color: #ffb703;
+  }
+  .offer-content button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #ffb703;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .offer-content button:hover{
+    background: #111;
+    color: #ffb703;
+  }
   /* Footer */
   .ec-footer {
     background: #111;

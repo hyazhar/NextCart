@@ -96,4 +96,20 @@
         flex-direction: column;
         gap: 10px;
       }
+      .offer-section {
+        padding: 35px 15px;
+    }
+
+    .offer-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .offer-content p {
+        font-size: 0.9rem;
+    }
+
+    .offer-btn {
+        width: 100%;
+        padding: 12px;
+    }
 }
