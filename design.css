@@ -414,11 +414,13 @@ nav {
 .wrapper-header button {
     background: #fff;
     border: none;
+    border-radius: 5px;
     padding: 10px 15px;
     color: #111;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+
 }
 
 .wrapper-header button:hover {

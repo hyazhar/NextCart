@@ -5,7 +5,6 @@ const slides = document.querySelectorAll(".crousel-item");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 let index = 0;
-
 // image slider
 function updateSlide() {
   track.style.transform = `translateX(-${index * 100}%)`;
