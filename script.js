@@ -1,4 +1,6 @@
 let hamburger = document.getElementById("hamburger-menu");
+let lastscrolly=window.scrollY;
+let nav=document.querySelector('nav');
 let menus = document.getElementById("menus");
 const track = document.querySelector(".crousel-track");
 const slides = document.querySelectorAll(".crousel-item");
@@ -25,5 +27,15 @@ prevBtn.addEventListener("click", () => {
 hamburger.addEventListener("click", () => {
     menus.classList.toggle("active");
 });
+// Hide navbar on scroll down and show on scroll up
+window.addEventListener('scroll',()=>{
+  if(window.scrollY>lastscrolly){
+    nav.style.top="-100px";
+   }
+  else{
+    nav.style.top="0";
+  }
+  lastscrolly=window.scrollY;
+})
 
 
