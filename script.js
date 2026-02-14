@@ -39,3 +39,18 @@ window.addEventListener('scroll',()=>{
 })
 
 
+let scrollTarget = 0;
+let currentScroll = 0;
+
+window.addEventListener("wheel", e => {
+  e.preventDefault();
+  scrollTarget += e.deltaY;
+}, { passive: false });
+
+function smoothScroll() {
+  currentScroll += (scrollTarget - currentScroll) * 0.08;
+  window.scrollTo(0, currentScroll);
+  requestAnimationFrame(smoothScroll);
+}
+
+smoothScroll();
