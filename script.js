@@ -38,7 +38,7 @@ window.addEventListener('scroll',()=>{
   lastscrolly=window.scrollY;
 })
 
-
+// Smooth Scrolling
 let scrollTarget = 0;
 let currentScroll = 0;
 
