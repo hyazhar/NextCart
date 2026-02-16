@@ -137,5 +137,12 @@
     .price-item img {
         margin-bottom: 6px;
     }
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box button {
+        width: 100%;
+    }
     
 }
