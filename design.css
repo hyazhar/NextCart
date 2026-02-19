@@ -43,6 +43,31 @@ nav {
 .search-bar-container.active{
     display: block;
 }
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Button style */
+.item-btn {
+    padding: 12px 22px;
+    border: none;
+    background: #ffb703;
+    color: #111;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.item-btn:hover {
+    background: black;
+    color: white;
+}
 #close-icon {
    color: black;
   cursor: pointer;

@@ -144,5 +144,9 @@
     .search-box button {
         width: 100%;
     }
-    
+      .item-btn {
+        padding: 8px 14px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
 }
